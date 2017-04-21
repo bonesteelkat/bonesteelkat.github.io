@@ -108,16 +108,16 @@ li a:hover {
     position: absolute;
     font-size: 200%;
     top: 60%;
-    left: 30%;
+    left: 20%;
     width: 900px;
 }
 
+/* contains the icons */
 #iconcontainer {
     text-align: center;
     position: absolute;
     font-size: 200%;
     top: 60%;
-    right: 6%;
     width: 100%;
 }
 
