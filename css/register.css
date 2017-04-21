@@ -1,0 +1,99 @@
+/* register form */
+
+body {
+    background-color: #FDFDFD;
+}
+
+label {
+    display: inline-block;
+    font-size: 20px; 
+    margin: 15px;
+    float: left;
+}
+
+#email {
+    margin-left: 35px;
+}
+
+#phone {
+    margin-left: 33px;
+}
+
+#email {
+    margin-left: 35px;
+}
+
+#loginform {
+    position:fixed;
+    margin-top: 10%;
+    margin-left: 38%;
+    width: 600px
+}
+
+input[type=text], input[type=password] {
+    width: 27%; /* width of boxees */
+    padding: 7px 15px;
+    margin: 5px;
+    display: inline-block;
+    text-align: left;
+}
+
+/* Set a style for all buttons */
+.box {
+    background-color: #FFF;
+    text-decoration: none;
+    height: 10px
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border: 1px solid #333;
+    font-size: 120%;
+    font-family: "SIMPLIFICA";
+}
+
+#top-bar {
+    overflow: hidden;
+    padding: 25px;
+    margin: 0;
+    background-color: #333;
+}
+
+#label {
+    color: #FFF;
+    font-size: 130%;
+    text-align: center;
+}
+
+span {
+    color: firebrick;
+}
+
+/* register button */
+.regbutton {
+    padding: 10px 18px;
+    border-style: none;
+    color: #FFF;
+    background-color: #333;
+    width: 45%;
+    margin: 10px;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    font-size: 190%;
+    font-family: "SIMPLIFICA";
+}
+
+/* font for the page */
+@font-face {
+    font-family: "Simplifica"; 
+    src: url('../fonts/SIMPLIFICATypeface.ttf') format("truetype"); 
+}
+
+.customfont {
+    font-family: 'Simplifica', Verdana, Tahoma;
+}
+
+/* add padding to containers */
+.container {
+    padding: 1px;
+}

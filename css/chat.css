@@ -1,0 +1,220 @@
+/* some css from socket chat tutorial 
+https://code.tutsplus.com/tutorials/real-time-chat-with-nodejs-socketio-and-expressjs--net-31708 */
+
+body {
+    font:25px arial;
+    color: #222;
+    text-align:center;
+    padding:35px; 
+    font-family: "SIMPLIFICA";
+}
+
+body {
+    background-color: #FDFDFD;
+}
+
+/* title of web page */
+#webtitle {
+    text-decoration: none;
+    font-size: 80px;
+    list-style-type: none;
+    color: #333;
+    text-align: center;
+}
+
+#top-bar {
+    overflow: hidden;
+    padding: 25px;
+    margin: 0;
+    background-color: #FDFDFD;
+}
+
+/* login and home text on top bar */
+#login {
+    border: 4px solid black;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #333; /* login/register */
+    float: right;
+}
+
+#login:hover {
+    background-color: #333;
+    color: #FDFDFD;
+}
+
+#logout {
+    border: 4px solid black;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #333; /* login/register */
+    float: right;
+}
+
+#logout:hover {
+    background-color: #333;
+    color: #FDFDFD;
+}
+
+#homepage {
+    text-decoration: none;
+    list-style-type: none;
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 25px;
+    color: #333; /* home button */
+    float: left;
+}
+
+#homepage:hover {
+    background-color: #333;
+    color: #FDFDFD;
+}
+
+
+/* bar for header tabs */
+.nav {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* navbar color */
+}
+
+/* header tabs */
+li a {
+    font-family: sans-serif;
+    margin: 0 px;
+    display: block; 
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    background-color: #333;
+    color: snow;
+    border: 3px solid white; /* cHECK THIS */
+}
+
+li {
+    float: left;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #FDFDFD;
+    color: #333;
+}
+
+.active {
+    background-color: #057067;
+    color: white;
+}
+
+  
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { 
+    text-decoration: none;
+    border-style: none;
+    color: #333;
+    background-color: #FFF;
+    border: 3px solid #FFF;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    font: 30px "SIMPLIFICA";    
+}
+  
+a {
+    color:#0000FF;
+    text-decoration:none; }
+  
+    a:hover { text-decoration:underline; }
+  
+#wrapper, #loginform {
+    margin: 0 auto;
+    margin-top: 30px;
+    float: left;
+    padding-bottom:25px;
+    background:#333;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    width: 60%;
+    border:3px solid #ACD8F0; }
+  
+#loginform { 
+    padding-top:18px; 
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+}
+  
+    #loginform p { 
+        margin: 5px; 
+        border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+}
+  
+#content {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width: 90%;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+
+/* name input */
+#name {
+    width:90px;
+    float: left;
+    border: 3px solid #333; 
+    margin-left: 40px;
+    text-align: center;
+}
+
+/* message field */
+#field {
+    width: 70%;
+    border: 3px solid #333;
+    text-align: center;
+}  
+
+#submit { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+  
+.welcome { 
+    float:left;
+    color: #FFF;
+}
+  
+.logout { 
+    float:right;
+}
+  
+.msgln { margin:0 0 2px 0; }
+
+/* font for the page */
+@font-face {
+   /* font-family: 'Womby'; 
+    src: url('../fonts/Womby-Regular.woff') format('truetype');
+    */
+    font-family: "Simplifica"; 
+    src: url('../fonts/SIMPLIFICATypeface.ttf') format("truetype"); 
+}
+
+.customfont {
+    font-family: 'Simplifica', Verdana, Tahoma;
+}

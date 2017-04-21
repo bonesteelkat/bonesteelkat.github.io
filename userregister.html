@@ -1,0 +1,31 @@
+<html>
+   <head>
+       <link rel="stylesheet" type="text/css" href="css/register.css">
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>       
+       <script type="text/javascript" src="https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"></script>
+       <script type="text/javascript" src="JS/userregister.js"></script> 
+      </head>
+       
+   <body>
+       <div id = "loginform" class = "customfont">
+           <form>
+               <!-- where error message will appear -->
+               <span id="error0"></span>
+               <label for = "username" class = "customfont">USERNAME: </label><input type = "text" name = "username" id = "username" class = "box"/><br/><br/>
+               
+               <!-- where error message will appear -->
+               <span id="error3"></span>
+               <label for = "email" class = "customfont">EMAIL: </label><input type = "text" id = "email" name = "email" class = "box" placeholder = "example@email.com"/><br/><br />
+            
+               <!-- where error message will appear -->
+               <span id="error5"></span>
+               <label for = "pword" class = "customfont">PASSWORD: </label><input type = "password" id = "password" name = "pword" placeholder="password" class = "box" /><br/><br />
+
+               <div class="container">    
+                    <button type="submit" id = "submitbutton" class = "regbutton">REGISTER</button>
+                </div>
+           </form>
+       </div>
+   </body>
+</html>

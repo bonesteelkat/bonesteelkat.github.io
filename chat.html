@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- design layout from https://code.tutsplus.com/tutorials/how-to-create-a-simple-web-based-chat-application--net-5931 -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Chat - Customer Module</title>
+    <link type="text/css" rel="stylesheet" href="css/chat.css" />
+    <script src='/socket.io/socket.io.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+    <script src='JS/chat.js'></script>
+</head>
+<body>
+     <div id = "top-bar">
+        <p class = "customfont" id = "webtitle">TIN LIZZIE</p>
+        <a class = "customfont" href="index2.html" id = "homepage">HOME</a>
+        <a class = "customfont" href="index.html" id = "logout">LOGOUT</a>
+        
+    </div>
+ <div>   
+      <nav>
+         <ul class = "nav" > 
+          <li> <a class = "customfont" href="videolib.html">VIDEO LIBRARY</a>
+             </li>
+          <li>  <a class = "customfont" href="chat.html">LIVE HELP</a>
+             </li>
+         </ul>
+      </nav>
+ </div>
+<div id="wrapper">
+    <div id="menu">
+        <p class="welcome">WELCOME. A REPRESENTATIVE WILL BE WITH YOU SOON.<b></b></p>
+        <div style="clear:both"></div>
+    </div>
+     
+    <div id="content"></div>
+        <!--<form name="message" action="" class = "controls">-->
+            <input name="usermsg" type="text" id="name" placeholder = "name"/>
+            <input name="usermsg" type="text" id="field" placeholder = "message"/>
+            <input name="submitmsg" type="submit" id="send" value="SEND"/>
+    </div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+body {
+    background-color: #FDFDFD;
+    margin-bottom: 130%;;
+}
+
+/* title of web page */
+#webtitle {
+    text-decoration: none;
+    font-size: 80px;
+    list-style-type: none;
+    color: #333;
+    text-align: center;
+}
+
+#top-bar {
+    overflow: hidden;
+    padding: 25px;
+    margin: 0;
+    background-color: #FDFDFD;
+}
+
+/* login and home text on top bar */
+#login {
+    border: 4px solid black;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #333; /* login/register */
+    float: right;
+}
+
+#login:hover {
+    background-color: #333;
+    color: #FDFDFD;
+}
+
+#logout {
+    border: 4px solid black;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #333; /* login/register */
+    float: right;
+}
+
+#logout:hover {
+    background-color: #333;
+    color: #FDFDFD;
+}
+
+#homepage {
+    text-decoration: none;
+    list-style-type: none;
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 25px;
+    color: #333; /* home button */
+    float: left;
+}
+
+#homepage:hover {
+    background-color: #333;
+    color: #FDFDFD;
+}
+
+
+/* bar for header tabs */
+.nav {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* navbar color */
+}
+
+/* header tabs */
+li a {
+    font-family: sans-serif;
+    margin: 0 px;
+    display: block; 
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    background-color: #333;
+    color: snow;
+    border: 3px solid white; /* cHECK THIS */
+}
+
+li {
+    float: left;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #FDFDFD;
+    color: #333;
+}
+
+.active {
+    background-color: #057067;
+    color: white;
+}
+
+
+/*
+/* anything past the header */
+/*
+
+/* mission statement */
+.mission1 {
+    text-align: left;
+    font-size: 50px;
+    font-family: "Simplifica";
+    padding: 0px;
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 400px;
+    position: relative;
+}
+.mission2 {
+    text-align: left;
+    font-family: "Simplifica";
+    width: 850px;
+    position: relative;
+    top: 50%;
+    left: 25%;
+}
+
+#container {
+    text-align: center;
+    position: absolute;
+    font-size: 200%;
+    top: 60%;
+    width: 100%;;
+}
+
+/* font for the page */
+@font-face {
+   /* font-family: 'Womby'; 
+    src: url('../fonts/Womby-Regular.woff') format('truetype');
+    */
+    font-family: "Simplifica"; 
+    src: url('../fonts/SIMPLIFICATypeface.ttf') format("truetype"); 
+}
+
+.customfont {
+    font-family: 'Simplifica', Verdana, Tahoma;
+}
+
+.btn:hover {
+    background:#057067;
+}

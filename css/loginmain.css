@@ -1,0 +1,101 @@
+/* Bordered form */
+
+body {
+    background-color: #FDFDFD;
+}
+
+#loginform {
+    position: fixed;
+    margin-top: 20%;
+    margin-left: 32%;
+    width: 800px;
+}
+
+/* Set a style for all boxes */
+.box {
+    background-color: #FFF;
+    text-decoration: none;
+    height: 30px
+    width: 13px;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border: 3px solid #333;
+    font-size: 140%;
+    font-family: "SIMPLIFICA";
+}
+
+#top-bar {
+    overflow: hidden;
+    padding: 25px;
+    margin: 0;
+    background-color: #333;
+}
+
+#label {
+    color: #FFF;
+    font-size: 130%;
+    text-align: center;
+}
+
+/*userlogin button*/
+.userlogin {
+    text-decoration: none;
+    padding: 10px 59px;
+    border-style: none;
+    color: #FFF;
+    background-color: #333;
+    width: 150%;
+    margin: 10px;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    font-size: 190%;
+    font-family: "SIMPLIFICA";
+}
+
+/* register button */
+.reg {
+    text-decoration: none;
+    padding: 10px 45px;
+    border-style: none;
+    color: #FFF;
+    background-color: #333;
+    width: 150%;
+    margin: 10px;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    font-size: 190%;
+    font-family: "SIMPLIFICA";
+}
+
+/*mployee login*/
+.emplogin {
+    text-decoration: none;
+    padding: 10px 60px;
+    border-style: none;
+    color: #FFF;
+    background-color: #333;
+    width: 150%;
+    margin: 10px;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    font-size: 190%;
+    font-family: "SIMPLIFICA";
+}
+
+.pad {
+    margin: 50px;
+}
+
+/* font for the page */
+@font-face {
+    font-family: "Simplifica"; 
+    src: url('../fonts/SIMPLIFICATypeface.ttf') format("truetype"); 
+}
+
+.customfont {
+    font-family: 'Simplifica', Verdana, Tahoma;
+}
