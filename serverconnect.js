@@ -32,10 +32,10 @@ some code provided by Charles Shaeffer's 107 class
 			app = express(),
 			pool = mysql.createPool({
 				connectionLimit : 100,
-				host : 'montreat.unca.edu',
-				user : 'kboneste',
-				password : '8cybd87m7d64v',
-				database : 'kbonesteDB'
+				host : 'localhost',
+				user : 'root',
+				password : '8Cq67rtnCyd!',
+				database : 'mechanic_help'
             });
     
 //        var express = require('express'), 
