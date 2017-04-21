@@ -32,9 +32,9 @@ some code provided by Charles Shaeffer's 107 class
 			app = express(),
 			pool = mysql.createPool({
 				connectionLimit : 100,
-				host : 'localhost',
-				user : 'root',
-				password : '8Cq67rtnCyd!',
+				host : 'kbonestedb.co3yixcedcfv.us-east-1.rds.amazonaws.com',
+				user : 'bonesteelkat',
+				password : '8cybd87m7d64v',
 				database : 'mechanic_help'
             });
     
